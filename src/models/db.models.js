@@ -1,7 +1,7 @@
 const { Sequelize } = require("sequelize");
 const mysql = require("mysql2");
 
-const { DATABASE_USER, DATABASE_NAME, DATABASE_PASSWORD } = require("../envConfig.js");
+const { DATABASE_USER, DATABASE_NAME, DATABASE_PASSWORD } = require("../config.js");
 
 // Abre la conexión a MySQL
 const connection = mysql.createConnection({

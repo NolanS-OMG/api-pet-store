@@ -1,5 +1,5 @@
 const app = require("./app.js");
-const { PORT } = require("./envConfig.js");
+const { PORT } = require("./config.js");
 
 // Inicializamos la API
 app.listen( PORT, () => {
